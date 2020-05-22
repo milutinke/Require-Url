@@ -27,7 +27,7 @@ const UrlRequire_Configuration = {
   CACHE_EXPIRATION: 86400, // 1 day
 
   // Path to the package.json in your project
-  PACKAGE_JSON: Path.join(process.cwd(), "..", "package.json"),
+  PACKAGE_JSON: Path.join(process.cwd(), "package.json"),
 
   // Suppress annoying messages when installing dependencies from the remote package.json (Optional)
   SUPPRESS_MESSAGES: false,
