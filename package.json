@@ -1,7 +1,7 @@
 {
-  "name": "require-url",
-  "version": "1.0.0",
-  "description": "Allows you to require modules from the URL asynchronously and supports caching.",
+  "name": "url-require",
+  "version": "1.0.1",
+  "description": "Allows you to require modules from the URL asynchronously and install dependencies from the remote package.json, also supports caching.",
   "main": "index.js",
   "scripts": {
     "test": "cd test && node test.js"
@@ -19,12 +19,9 @@
     "update-notifier": "^4.1.0",
     "valid-url": "^1.0.9"
   },
-  "devDependencies": {
-    "jshint": "^2.1.11",
-    "tap": "^0.4.13"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/milutinke/Require-Url.git"
+    "url": "https://github.com/milutinke/Url-Require.git"
   }
 }
