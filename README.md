@@ -1,4 +1,4 @@
-# Require-Url
+# Url-Require
 
 A simple NPM module which enables you to require modules via URL and to install the dependencies from the remote package.json
 
